@@ -1,4 +1,4 @@
-# STM32CubeF4 HAL Driver MCU Component
+# STM32CubeF2 HAL Driver MCU Component
 
 ## Overview
 
@@ -12,12 +12,12 @@
    * A full set of software projects (basic examples, applications or demonstrations) for each board provided by this STM32 series.
 
 Two models of publication are proposed for the STM32Cube embedded software:
-   * The monolithic **MCU Package** : all STM32Cube software modules of one STM32 series are present (Drivers, Middlewares, Projects, Utilities) in the repo (usual name **STM32Cubexx**, xx corresponding to the STM32 series).
+   * The monolithic **MCU Package** : all STM32Cube software modules of one STM32 series are present (Drivers, Middlewares, Projects, Utilities) in the repo (usual name **STM32Cubexx**, xx corresponding to the STM32 series)
    * The **MCU component** : progressively from November 2019, each STM32Cube software module being part of the STM32Cube MCU Package, will be delivered as an individual repo, allowing the user to select and get only the required software functions.
 
 ## Description
 
-This **stm32f4xx_hal_driver** MCU component repository is one element of the STM32CubeF4 MCU embedded software package, providing the **HAL-LL Drivers** part.
+This **stm32f2xx_hal_driver** MCU component repo is one element of the STM32CubeF2 MCU embedded software package, providing the **HAL-LL Drivers** part.
 
 ## License
 
@@ -28,7 +28,7 @@ You may obtain a copy of the License [here](https://opensource.org/licenses/BSD-
 
 ## Release note
 
-Details about the content of this release are available in the release note [here](https://htmlpreview.github.io/?https://github.com/STMicroelectronics/stm32f4xx_hal_driver/blob/master/Release_Notes.html).
+Details about the content of this release are available in the release note [here](https://htmlpreview.github.io/?https://github.com/STMicroelectronics/stm32f2xx_hal_driver/blob/master/Release_Notes.html).
 
 ## Compatibility information
 
@@ -36,18 +36,17 @@ In this table, you can find the successive versions of this HAL-LL Driver compon
 
 It is **crucial** that you use a consistent set of versions for the CMSIS Core - CMSIS Device - HAL, as mentioned in this table.
 
-HAL Driver F4 | CMSIS Device F4 | CMSIS Core | Was delivered in the full MCU package
+HAL Driver F2 | CMSIS Device F2 | CMSIS Core | Was delivered in the full MCU package
 ------------- | --------------- | ---------- | -------------------------------------
-Tag v1.7.6 | Tag v2.6.3 | Tag v5.4.0_cm4 | Tag v1.24.1 (and following, if any, till next tag)
-Tag v1.7.7 | Tag v2.6.4 | Tag v5.4.0_cm4 | Tag v1.24.2 (and following, if any, till next tag)
-Tag v1.7.8 | Tag v2.6.5 | Tag v5.4.0_cm4 | Tag v1.25.0 (and following, if any, till next tag)
-Tag v1.7.9 | Tag v2.6.5 | Tag v5.4.0_cm4 | Tag v1.25.1 (and following, if any, till next tag)
-Tag v1.7.10 | Tag v2.6.5 | Tag v5.4.0_cm4 | Tag v1.25.2 (and following, if any, till next tag)
+Tag v1.2.3 | Tag v2.2.2 | Tag v5.4.0_cm3 | Tag v1.8.0 (and following, if any, till next tag)
+Tag v1.2.4 | Tag v2.2.3 | Tag v5.4.0_cm3 | Tag v1.9.0 (and following, if any, till next tag)
+Tag v1.2.5 | Tag v2.2.4 | Tag v5.4.0_cm3 | Tag v1.9.1 (and following, if any, till next tag)
+Tag v1.2.6 | Tag v2.2.4 | Tag v5.4.0_cm3 | Tag v1.9.2 (and following, if any, till next tag)
 
-The full **STM32CubeF4** MCU package is available [here](https://github.com/STMicroelectronics/STM32CubeF4).
+The full **STM32CubeF2** MCU package is available [here](https://github.com/STMicroelectronics/STM32CubeF2).
 
 ## Troubleshooting
 
-If you have any issue with the **Software content** of this repository, you can file an issue into the firmware repository [STM32CubeF4](https://github.com/STMicroelectronics/STM32CubeF4/issues/new/choose).
+If you have any issue with the **Software content** of this repository, you can file an issue into the firmware repository [STM32CubeF2](https://github.com/STMicroelectronics/STM32CubeF2/issues/new/choose).
 
 For any other question related to the product, the tools, the environment, you can submit a topic on the [ST Community/STM32 MCUs forum](https://community.st.com/s/group/0F90X000000AXsASAW/stm32-mcus).
